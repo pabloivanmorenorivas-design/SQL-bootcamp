@@ -17,3 +17,15 @@ FROM actores
 WHERE actor_id = 18;
 
 -- Paso 2: ¿Cuál es la serie con el mejor rating promedio según IMDB?
+SELECT
+    serie_id,
+    AVG(rating_imdb) AS rating_promedio
+FROM episodios
+GROUP BY serie_id
+ORDER BY 2 DESC;
+
+-- La serie con el id 8 es la que tiene el rating promedio más alto
+SELECT
+    *
+FROM series
+WHERE serie_id = 8;
