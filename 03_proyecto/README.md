@@ -19,5 +19,8 @@ El análisis se centró en las siguientes entidades clave:
 Para este análisis, se formularon y resolvieron las siguientes consultas estratégicas utilizando SQL:
 
 1. **Actor/Actriz con mayor participación:** ¿Quién ha aparecido en el mayor número de series?
+- Gina Carano
 2. **Calidad de contenido:** ¿Cuál es la serie con el mejor rating promedio según IMDB?
+- Arcane
 3. **Duración de contenido:** ¿Cuál es el episodio con la mayor duración (el más largo)?
+- The Sign of Three con 93 minutos

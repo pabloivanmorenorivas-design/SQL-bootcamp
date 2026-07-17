@@ -29,3 +29,13 @@ SELECT
     *
 FROM series
 WHERE serie_id = 8;
+
+-- Paso 3: 
+-- ¿Cuál es el episodio con la mayor duración (el más largo)?
+SELECT
+    titulo,
+    duracion,
+    descripcion
+FROM episodios
+ORDER BY duracion DESC
+LIMIT 3; -- Usamos un LIMIT 3 ya que no sabemos si hay episodios con la misma duración
